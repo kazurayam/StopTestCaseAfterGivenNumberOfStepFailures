@@ -105,7 +105,7 @@ When you run the TC2, you will see the following output in the console.
 2020-04-17 10:40:09.001 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ 3: All work and no play makes Huck a dull boy
 2020-04-17 10:40:09.002 DEBUG t.TC2_stopAfterGivenNumberOfFailures     - 6: PrimitiveKeywords.fail("4: " + msg)
 2020-04-17 10:40:09.004 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ 4: All work and no play makes Huck a dull boy
-2020-04-17 10:40:09.069 WARN  com.kms.katalon.core.util.KeywordUtil    - Expanded markFiled() detected that 4 steps failed, which exceeds the limit you declared:3. So long!
+2020-04-17 10:40:09.069 WARN  com.kms.katalon.core.util.KeywordUtil    - Expanded markFiled() detected that 4 steps failed, which exceeds the limit you declared:3
 2020-04-17 10:40:09.122 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TC2_stopAfterGivenNumberOfFailures FAILED.
 Reason:
 com.kms.katalon.core.exception.StepFailedException: 1: All work and no play makes Huck a dull boy

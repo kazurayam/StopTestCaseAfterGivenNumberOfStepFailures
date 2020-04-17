@@ -16,20 +16,19 @@ public class KeywordUtilExpander {
 
 	static void stopAfterFailedStepsOf(int ceil) {
 		KeywordUtil.metaClass.static.markFailed = { String message ->
-			 delegate.logger.logFailed(message);
-			 ErrorCollector.getCollector().addError(new StepFailedException(message));
-			 //
-			 def numberOfFailedSteps = ErrorCollector.getCollector().getErrors().size()
-			 if (numberOfFailedSteps > ceil) {
-				 StringBuffer sb = new StringBuffer()
-				 sb.append("Expanded markFiled() detected that ")
-				 sb.append(numberOfFailedSteps)
-				 sb.append(" steps failed, which exceeds the limit you declared:")
-				 sb.append(ceil)
-				 sb.append(". So long!")
-				 KeywordUtil.markWarning(sb.toString())
-				 throw new StepFailedException(sb.toString());
-			 }
+			delegate.logger.logFailed(message);
+			ErrorCollector.getCollector().addError(new StepFailedException(message));
+			//
+			def numberOfFailedSteps = ErrorCollector.getCollector().getErrors().size()
+			if (numberOfFailedSteps > ceil) {
+				StringBuffer sb = new StringBuffer()
+				sb.append("Expanded markFiled() detected that ")
+				sb.append(numberOfFailedSteps)
+				sb.append(" steps failed, which exceeds the limit you declared:")
+				sb.append(ceil)
+				KeywordUtil.markWarning(sb.toString())
+				throw new StepFailedException(sb.toString());
+			}
 		}
 	}
 }
