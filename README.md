@@ -116,3 +116,8 @@ com.kms.katalon.core.exception.StepFailedException: 1: All work and no play make
 The test case stops after 3 times of step failure, while skipping the following steps.
 
 ∴ Problem is resolved.
+
+
+## Discussion
+
+The original post mentions *consecutive*-ness. The above solution disregards it. I prefered simpleness to completeness.
