@@ -32,7 +32,7 @@ It tells that `com.kms.katalon.core.util.KeywordUtil.markFailed()` method is inv
 
 You would want to change the behavior of `markFailed()` so that it counts the number of step failures.
 And as soon as the failure count exceeds the criteria you set,
-`markFiled()` should throw an Exception to quit the test case.
+`markFailed()` should throw an Exception to quit the test case.
 
 However, is it possible to change the behavior of the built-in `KeywordUtil.markFailed()` on the fly?
 
