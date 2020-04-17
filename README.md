@@ -64,7 +64,7 @@ fail("10: " + msg)
 
 This test case emits 10 times of step failures. the `fail(String)` is a primitive custom keyword that always fails. You can see the source [here](./Keywords/com/kazurayam/ksbackyard/PrimitiveKeywords.groovy).
 
-Now I want to quit this test case as soon as `fail(String)` was called more thatn 3 times.
+Now I want to quit a test case as soon as `fail(String)` was called more thatn 3 times.
 
 Please try running the `Test Cases/TC2_stopAfterGivenNumberOfFailures`:
 
