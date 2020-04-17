@@ -10,7 +10,7 @@ I developed this project using Katalon Studio ver 7.2.1.
 
 I developed this project to propose a solution to a discussion in Katalon Forum:
 
-- [How to force stop test case after a few consecutive step failures](https://github.com/kazurayam/StopTestCaseAfterGivenNumberOfStepFailures/releases)
+- [How to force stop test case after a few consecutive step failures](https://forum.katalon.com/t/how-to-force-stop-test-case-after-a-few-consecutive-step-failures/42383)
 
 ## Problem to solve
 
