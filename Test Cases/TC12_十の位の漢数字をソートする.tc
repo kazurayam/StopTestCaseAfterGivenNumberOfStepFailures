@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_十の位の漢数字をソートする</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6121bf29-4120-40cd-9fce-2b79672e6a67</testCaseGuid>
+</TestCaseEntity>
